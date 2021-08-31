@@ -7,6 +7,8 @@ namespace ZhangM
 {
     class RunData
     {
+        public IDate date;
+
         public PersonManager personMgr;
         public BusinessManager businessMgr;
         public SectManager sectMgr;
@@ -17,6 +19,8 @@ namespace ZhangM
 
         public RunData()
         {
+            date = new Date();
+
             personMgr = new PersonManager();
             businessMgr = new BusinessManager();
             sectMgr = new SectManager();

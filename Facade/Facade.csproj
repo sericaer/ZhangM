@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj" />
+    <ProjectReference Include="..\Date\Date.csproj" />
     <ProjectReference Include="..\GMSystem\GMSystem.csproj" />
     <ProjectReference Include="..\Interface\Interface.csproj" />
     <ProjectReference Include="..\Person\Person.csproj" />

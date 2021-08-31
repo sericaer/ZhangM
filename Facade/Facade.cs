@@ -7,6 +7,7 @@ namespace ZhangM
     {
         public static IPerson player { get; private set; }
 
+        public static IDate date { get; private set; }
         private static RunData runData { get; set; }
 
         public static void BuildRunData()
@@ -14,6 +15,8 @@ namespace ZhangM
             runData = new RunData();
 
             player = runData.personMgr.First();
+
+            date = runData.date;
         }
     }
 }

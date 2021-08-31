@@ -18,9 +18,9 @@ namespace XUnitTest
             var relationMgr = new RelationManager();
             var system = new SystemRelationSubsidiaryBusiness(relationMgr);
 
-            var s1 = new Subsidiary();
-            var s2 = new Subsidiary();
-            var s3 = new Subsidiary();
+            var s1 = new Subsidiary("111");
+            var s2 = new Subsidiary("222");
+            var s3 = new Subsidiary("333");
 
             var b1 = new Business();
             var b2 = new Business();
