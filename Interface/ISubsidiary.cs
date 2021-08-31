@@ -6,6 +6,8 @@ namespace ZhangM
 {
     public interface ISubsidiary
     {
+        string name { get; }
+
         ISect sect { get; }
 
         IPerson owner { get; }

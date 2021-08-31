@@ -22,9 +22,9 @@ namespace XUnitTest
             var sect2 = new Sect();
             var sect3 = new Sect();
 
-            var sub1 = new Subsidiary();
-            var sub2 = new Subsidiary();
-            var sub3 = new Subsidiary();
+            var sub1 = new Subsidiary("111");
+            var sub2 = new Subsidiary("222");
+            var sub3 = new Subsidiary("333");
 
             system.SetRelation(sect1, sub1);
 

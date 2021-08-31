@@ -4,6 +4,8 @@ namespace ZhangM
 {
     public interface IPerson
     {
+        string fullName { get; }
+
         int maxBusinessCount { get; }
 
         int maxGuidanceCount { get; }

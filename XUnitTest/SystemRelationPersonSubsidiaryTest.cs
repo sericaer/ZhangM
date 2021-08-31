@@ -18,9 +18,9 @@ namespace XUnitTest
             var relationMgr = new RelationManager();
             var system = new SystemRelationPersonSubsidiary(relationMgr);
 
-            var p1 = new Person();
-            var p2 = new Person();
-            var p3 = new Person();
+            var p1 = new Person("AAAA");
+            var p2 = new Person("BBBB");
+            var p3 = new Person("CCCC");
 
             var s1 = new Subsidiary();
             var s2 = new Subsidiary();

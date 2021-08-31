@@ -20,13 +20,13 @@ namespace ZhangM
 
         public void Build()
         {
-            var person1 = new Person();
+            var person1 = new Person("AAAA");
             all.Add(person1);
 
-            var person2 = new Person();
+            var person2 = new Person("BBBB");
             all.Add(person2);
 
-            var person3 = new Person();
+            var person3 = new Person("CCCC");
             all.Add(person3);
 
         }

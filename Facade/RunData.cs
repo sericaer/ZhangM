@@ -28,7 +28,7 @@ namespace ZhangM
             businessMgr.Build();
             sectMgr.build();
 
-            var subsidiary = new Subsidiary();
+            var subsidiary = new Subsidiary("1111");
 
             systemMgr.systemRelationSectSubsidiary.SetRelation(sectMgr.First(), subsidiary);
             systemMgr.systemRelationSubsidiaryBusiness.SetRelation(subsidiary, businessMgr.First());

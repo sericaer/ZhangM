@@ -6,6 +6,7 @@ namespace ZhangM
 {
     public class Person : Entity, IPerson
     {
+        public string fullName { get; private set; }
 
         public int maxBusinessCount { get; private set; }
 
@@ -36,8 +37,10 @@ namespace ZhangM
 
         public IEnumerable<ISubsidiary> subsidiaries => throw new NotImplementedException();
 
-        public Person()
+        public Person(string fullName)
         {
+            this.fullName = fullName;
+
             maxBusinessCount = 3;
             maxGuidanceCount = 5;
             maxLearningCount = 1;

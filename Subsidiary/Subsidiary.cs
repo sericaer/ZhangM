@@ -6,6 +6,8 @@ namespace ZhangM
 {
     public class Subsidiary : Entity, ISubsidiary
     {
+        public string name { get; set; }
+
         public ISect sect
         {
             get
@@ -30,6 +32,11 @@ namespace ZhangM
             {
                 return GetRealtaions<IRelation_Subsidiary_Business>().Select(x => x.business);
             }
+        }
+
+        public Subsidiary(string name)
+        {
+            this.name = name;
         }
     }
 }
