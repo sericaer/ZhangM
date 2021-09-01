@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ZhangM
 {
-    class Productor : IComponentProductor
+    public class Productor : IComponentProductor
     {
         public ICondition condition => throw new NotImplementedException();
 

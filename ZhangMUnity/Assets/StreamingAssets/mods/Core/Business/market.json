@@ -1,0 +1,27 @@
+{
+    "productor": 
+    [
+        {
+            "product": {
+                "type": "cash",
+                "value": 100
+            },
+            "condition": {
+                "and": [
+                    {
+                        "equal": [
+                            "gm.date.day",
+                            "100"
+                        ]
+                    },
+                    {
+
+                    }
+
+                ]
+
+            }
+        }
+    ]
+
+}

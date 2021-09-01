@@ -23,7 +23,8 @@ namespace ZhangM
         {
             get
             {
-                return subsidiary.businesses.Count() * 100 / subsidiary.owner.maxBusinessCount;
+                var rslt = subsidiary.businesses.Count() * 100 / subsidiary.owner.maxBusinessCount;
+                return rslt > 100 ? 100 : rslt;
             }
         }
     }

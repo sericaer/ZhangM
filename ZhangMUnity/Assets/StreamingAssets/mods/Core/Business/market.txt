@@ -1,0 +1,21 @@
+productor = 
+{
+    product=
+    {
+         type = cash
+         value = 100
+    }
+
+    condition =
+    {
+        and = 
+        {
+            euqal = 
+            {
+                gm.date.day
+                100
+            }
+
+        }
+    }
+}
